@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+# E-commerce AI Feature Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description  
+This project is a simple e-commerce product catalog app featuring a basic search filter and an AI-enhanced functionality to improve user experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Main Features
 
-### `npm start`
+- Static display of 8–12 products with fields:  
+  - Name  
+  - Price  
+  - Category  
+  - Description  
+  - Rating  
+  - Image
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Basic local text filter that interprets user queries to detect category, max price, and minimum rating, simulating a smart search.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## Implemented AI Feature
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Option A – Smart Product Search (Simulated NLP):**  
+A local function interprets user search input and filters products by category, maximum price, and rating. This is a rule-based simulation of natural language processing without using the OpenAI API, due to time constraints.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to Run the App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone or download the repository.  
+2. Install dependencies:  
+   run npm install
+3. Start the development server:
+   run npm start
+4. Open your browser at:
+   http://localhost:3000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Tools and Libraries Used
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- React + TypeScript  
+- CSS-in-JS for simple styling  
+- Static JSON for product data  
+- Filtering logic implemented in React (no backend)  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Assumptions and Notes
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- The AI feature is rule-based and does not connect to real NLP or ML models.  
+- Data is static and not fetched from an external API.  
+- Product images load from public URLs or the local `public` folder.  
+- Focus was on implementing a basic natural language style search filter for this test.  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Bonus (Blockchain Integration Idea)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This AI feature could integrate with blockchain to enable:  
+
+- Token-gated pricing where token holders get AI-driven dynamic discounts.  
+- On-chain user preferences to personalize recommendations while preserving privacy.  
+- Smart contracts for loyalty programs rewarding AI interactions or repeat purchases.  
