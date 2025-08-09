@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Running Sneakers",
+    "price": 89,
+    "category": "Sportswear",
+    "description": "Lightweight running shoes designed for comfort and performance on all terrains.",
+    "rating": 3.8,
+    "image": "/shoes.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Wireless Headphones",
+    "price": 129,
+    "category": "Electronics",
+    "description": "Noise-cancelling over-ear headphones with 20 hours of battery life and premium sound.",
+    "rating": 4.7,
+    "image": "/wireless_headphones.webp"
+  },
+  {
+    "id": 3,
+    "name": "Leather Wallet",
+    "price": 45,
+    "category": "Accessories",
+    "description": "Durable handcrafted leather wallet with multiple card slots and coin pocket.",
+    "rating": 4.2,
+    "image": "/wallet.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Smartwatch",
+    "price": 199,
+    "category": "Electronics",
+    "description": "Feature-packed smartwatch with heart rate monitor, GPS, and customizable watch faces.",
+    "rating": 3.9,
+    "image": "/smartwatch.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cotton T-Shirt",
+    "price": 25,
+    "category": "Clothing",
+    "description": "Soft 100% cotton T-shirt available in multiple colors and sizes.",
+    "rating": 4.0,
+    "image": "/shirt.png"
+  },
+  {
+    "id": 6,
+    "name": "Yoga Mat",
+    "price": 35,
+    "category": "Sportswear",
+    "description": "Non-slip yoga mat with extra cushioning for a comfortable workout experience.",
+    "rating": 4.3,
+    "image": "/yoga_mat.png"
+  },
+  {
+    "id": 7,
+    "name": "Gaming Mouse",
+    "price": 59,
+    "category": "Electronics",
+    "description": "Ergonomic gaming mouse with customizable DPI settings and RGB lighting.",
+    "rating": 4.6,
+    "image": "/mouse.png"
+  },
+  {
+    "id": 8,
+    "name": "Backpack",
+    "price": 75,
+    "category": "Accessories",
+    "description": "Water-resistant backpack with multiple compartments for daily use and travel.",
+    "rating": 4.4,
+    "image": "/backpack.jpg"
+  },
+  {
+    "id": 9,
+    "name": "LED Desk Lamp",
+    "price": 49,
+    "category": "Home",
+    "description": "Adjustable LED desk lamp with touch controls and three brightness levels.",
+    "rating": 4.1,
+    "image": "/desk_lamp.webp"
+  },
+  {
+    "id": 10,
+    "name": "Winter Jacket",
+    "price": 150,
+    "category": "Clothing",
+    "description": "Warm insulated winter jacket with detachable hood and waterproof exterior.",
+    "rating": 4.7,
+    "image": "/jacket.webp"
+  },
+  {
+    "id": 11,
+    "name": "Bluetooth Speaker",
+    "price": 99,
+    "category": "Electronics",
+    "description": "Portable Bluetooth speaker with deep bass, waterproof design, and 12-hour battery life.",
+    "rating": 4.5,
+    "image": "/speaker.webp"
+  },
+  {
+    "id": 12,
+    "name": "Sports Water Bottle",
+    "price": 19,
+    "category": "Sportswear",
+    "description": "Durable BPA-free sports water bottle with quick-sip lid and carrying strap.",
+    "rating": 3.5,
+    "image": "/water_bottle.webp"
+  }
+]
